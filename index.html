@@ -8,38 +8,63 @@
 </head>
 <body>
     <div class="container">
+
         <table>
             <thead>
+                <td></td>
+                <td>Tiempo de Guarda</td>
+                <td>
+                    <select class="dropdown2">
+                        <option value="0.25">1/4</option>
+                        <option value="0.125">1/8</option>
+                        <option value="0.0625">1/16</option>
+                        <option value="0.03125">1/32</option>
+                    </select>
+                </td>
                 <tr>
-                    <th></th>
-                    <th>Número de Segmentos</th>
-                    <th>Modulación</th>
-                    <th>Tasa de Código</th>
-                    <th>Tasa de Datos</th>
+                    <th rowspan="2"></th>
+                    <th rowspan="2">Número de<br>Segmentos</th> <!-- Título en dos líneas -->
+                    <th rowspan="2">Modulación</th>
+                    <th rowspan="2">Tasa de Código</th>
+                    <th rowspan="2">Tasa de Datos</th>
+                </tr>
+                <tr>
+                    <!-- Esta fila es opcional dependiendo de tu diseño -->
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>CAPA A</td>
                     <td>
-                        <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                        <select id="segmentos_a" class="dropdown">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="4">Q-PSK</option>
+                            <option value="16">16-QAM</option>
+                            <option value="64">64-QAM</option>
                         </select>
                     </td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="0.5">1/2</option>
+                            <option value="0.66">2/3</option>
+                            <option value="0.75">3/4</option>
+                            <option value="0.83">5/6</option>
                         </select>
                     </td>
                     <td>
@@ -47,61 +72,85 @@
                     </td>
                 </tr>
                 <!-- Repite este bloque para cada fila adicional -->
+
                 <tr>
                     <td>CAPA B</td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="4">Q-PSK</option>
+                            <option value="16">16-QAM</option>
+                            <option value="64">64-QAM</option>
                         </select>
                     </td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="0.5">1/2</option>
+                            <option value="0.66">2/3</option>
+                            <option value="0.75">3/4</option>
+                            <option value="0.83">5/6</option>
                         </select>
                     </td>
                     <td>
                         <textarea readonly></textarea>
                     </td>
                 </tr>
-                <!-- Repite este bloque para cada fila adicional -->
+
                 <tr>
                     <td>CAPA C</td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="4">Q-PSK</option>
+                            <option value="16">16-QAM</option>
+                            <option value="64">64-QAM</option>
                         </select>
                     </td>
                     <td>
                         <select class="dropdown">
-                            <option value="opcion1">Opción 1</option>
-                            <option value="opcion2">Opción 2</option>
-                            <option value="opcion3">Opción 3</option>
+                            <option value="0.5">1/2</option>
+                            <option value="0.66">2/3</option>
+                            <option value="0.75">3/4</option>
+                            <option value="0.83">5/6</option>
                         </select>
                     </td>
                     <td>
                         <textarea readonly></textarea>
                     </td>
                 </tr>
+
             </tbody>
         </table>
     </div>
