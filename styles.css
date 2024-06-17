@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f49f;
 }
 
 .container {
@@ -27,6 +27,12 @@ body {
 .dropdown {
     margin-right: 10px;
     padding: 5px;
+}
+
+.dropdown2 {
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
 }
 
 .info-container {
