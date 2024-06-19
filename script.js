@@ -43,7 +43,7 @@ function updateCalculations() {
             const tasaTotal = Rs * segmentoValue;
 
             // Actualizar el contenido del textarea con la tasa de transmisión
-            textarea.value = Tasa de Transmisión Total: ${tasaTotal.toFixed(2)} Mbps;
+            textarea.value = `Tasa de Transmisión Total: ${tasaTotal.toFixed(2)} Mbps`;
 
             // Sumar al total de la tasa de transmisión
             totalTasaTransmision += tasaTotal;
