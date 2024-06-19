@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f49f;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.info-container {
+    flex-grow: 1;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
